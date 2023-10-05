@@ -1,0 +1,114 @@
+*{
+    
+    margin: 0%;
+    font-family: 'Gabarito', cursive;
+    font-family: 'Inter', sans-serif;
+}
+
+#menu-superior{
+
+    padding-top: 150px;
+    margin-right: 72px;
+    margin-left: 72px;
+    margin-top: 206;
+    margin-bottom: 10px;
+
+}
+
+#titulo-superior{
+    margin-left: 72px;
+    margin-top: 50px;
+    padding-bottom: 250px;
+    padding-right: 100px;
+}
+
+#menu-informacional{
+    background-color:#F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+}
+#menusuperior{
+    background-image: url(imagens/background-img.svg);
+    color: white;
+}
+.info{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+#imagemtxt{
+    columns: auto;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#titulo-info{
+    font-family: 'Gabarito', cursive;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+#texto-info{
+    font-family: 'Gabarito', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+#imgarquitetura{
+    margin: 50px 40px 35px 35px ;
+
+
+}
+
+#menuinferior{
+    background-color: #303030;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#titulo-inferior{
+    color: #F9F9F9;
+    text-align: center;
+    font-size:25px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    
+}
+
+#formulario{
+    text-align: center;
+
+}
+
+input{
+    width: 400px;
+    height: 72px;
+    left: 466px;
+    border-radius: 10px;
+    background-color:#FFFFFF;
+    border:0px;
+    margin: 25px;
+    padding-left: 10px;
+}
+
+button{
+background-color:#C07212;
+height: 50px;
+width: 190px;
+color: #F9F9F9;
+border: 0px;
+border-radius: 10px;
+font-family: 'Gabarito', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-weight: bolder;
+cursor: pointer;
+}
+
+button:hover{
+    background-color: #a16214;
+    transform:translatey(-10px);
+}
